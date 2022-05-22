@@ -2,14 +2,14 @@ exports.config = {
     port: 4724,
     path: '/wd/hub/',
     runner: 'local',
-    specs: ['./test/specs/*.js'],
-    maxInstances: 1,
+    specs: ['./test/specs/*.specs.ts'],
+    maxInstances: 1,    
     capabilities: [
       {
         platformName: 'Android',
         platformVersion: '11',
-        appPackage: 'com.facebook.katana',
-        appActivity: 'com.facebook.katana.LoginActivity',
+        appPackage: 'com.amazon.avod.thirdpartyclient',
+        appActivity: 'com.amazon.avod.thirdpartyclient.LauncherActivity',
         automationName: 'UiAutomator2'
       }
     ],

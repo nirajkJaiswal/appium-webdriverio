@@ -2,7 +2,7 @@
     "compilerOptions": {
         "types": [
             "node",
-            "webdriverio/async",
+            "webdriverio/sync",
             "@wdio/mocha-framework",
             "expect-webdriverio"
         ],
